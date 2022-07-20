@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+
+    tools:context=".main.EnterFragment">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main"
+        android:backgroundTint="@color/pink_sec"
+        android:hint="@string/new_name"
+        android:minHeight="48dp"
+        android:textColor="@color/milk"
+        android:textColorHint="@color/pink_sec" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main"
+        android:backgroundTint="@color/pink_sec"
+        android:hint="@string/surname"
+        android:minHeight="48dp"
+        android:textColor="@color/milk"
+        android:textColorHint="@color/pink_sec" />
+
+    <EditText
+        android:id="@+id/new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main"
+        android:backgroundTint="@color/pink_sec"
+        android:hint="@string/new_pass"
+        android:minHeight="48dp"
+        android:textColor="@color/milk"
+        android:textColorHint="@color/pink_sec" />
+
+    <EditText
+        android:id="@+id/new_pass_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/main"
+        android:backgroundTint="@color/pink_sec"
+        android:hint="@string/new_pass_again"
+        android:minHeight="48dp"
+        android:textColor="@color/milk"
+        android:textColorHint="@color/pink_sec" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_new_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/main"
+        android:layout_marginEnd="@dimen/main"
+        android:backgroundTint="@color/pink_sec"
+        android:fontFamily="@font/dihjauti_bold"
+        android:text="@string/registration"
+        android:textColor="@color/milk"
+        app:cornerRadius="@dimen/main" />
+</LinearLayout>

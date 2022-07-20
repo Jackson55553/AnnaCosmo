@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Anna Cosmo</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="enter">войти</string>
+    <string name="new_registration">зарегистрироваться</string>
+    <string name="new_name">Введите имя</string>
+    <string name="new_pass">Введите пароль</string>
+    <string name="new_pass_again">Введите пароль еще раз</string>
+    <string name="surname">Введите фамилию</string>
+    <string name="registration">Регистрация</string>
+</resources>
