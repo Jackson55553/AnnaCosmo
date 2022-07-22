@@ -6,7 +6,11 @@
         <entry key="..\:/TryThree/app/src/main/res/font/marta.xml" value="0.1398148148148148" />
         <entry key="..\:/TryThree/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/TryThree/app/src/main/res/layout/fragment_blank.xml" value="0.2957427536231884" />
+        <entry key="..\:/TryThree/app/src/main/res/layout/fragment_enter.xml" value="0.36666666666666664" />
+        <entry key="..\:/TryThree/app/src/main/res/layout/fragment_main.xml" value="0.36666666666666664" />
         <entry key="..\:/TryThree/app/src/main/res/layout/fragment_registration.xml" value="0.19895833333333332" />
+        <entry key="..\:/TryThree/app/src/main/res/menu/menu_appbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/TryThree/app/src/main/res/menu/menu_fragment.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

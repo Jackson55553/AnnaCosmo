@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.example.trythree.R
 import com.example.trythree.databinding.FragmentEnterBinding
+import com.example.trythree.main.main.MainFragment
 
 class EnterFragment : Fragment() {
 
@@ -18,7 +19,7 @@ class EnterFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentEnterBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
@@ -32,7 +33,7 @@ class EnterFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnEnter.setOnClickListener {
-            Toast.makeText(context,"Вы вошли",Toast.LENGTH_SHORT).show()
+            parentFragmentManager.beginTransaction().replace(R.id.container,MainFragment()).addToBackStack(null).commit()
         }
         binding.btnReg.setOnClickListener {
             parentFragmentManager.beginTransaction().replace(R.id.container, RegistrationFragment()).addToBackStack(null).commit()

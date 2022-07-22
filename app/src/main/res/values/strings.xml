@@ -11,4 +11,6 @@
     <string name="new_pass_again">Введите пароль еще раз</string>
     <string name="surname">Введите фамилию</string>
     <string name="registration">Регистрация</string>
+    <string name="settings">Настройки</string>
+    <string name="help">Поддержка</string>
 </resources>
